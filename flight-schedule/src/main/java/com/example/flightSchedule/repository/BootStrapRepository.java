@@ -18,7 +18,7 @@ public class BootStrapRepository implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Flight flight1 = new Flight(1L, "UL_191", "DEL", "TYO", "Srilankan Airlines", "05:10", "7:35");
-        Flight flight2 = new Flight(2L, "UL_192", "DEL", "TYO", "China Southern Airlines", "05:15", "9:35");
+        Flight flight2 = new Flight(2L, "UL_192", "DEL", "TYO", "Chine Southern Airlines", "05:15", "9:35");
         Flight flight3 = new Flight(3L, "UL_193", "DEL", "TYO", "Chine Southern Airlines", "12:30", "14:35");
         Flight flight4 = new Flight(4L, "UL_194", "DEL", "TYO", "Srilankan Airlines", "15:10", "18:40");
 
